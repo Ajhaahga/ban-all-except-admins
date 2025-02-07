@@ -13,9 +13,9 @@ from config import *
 
 banbot = Client(
         "banbot",
-        api_id = Config.API_ID,
-        api_hash = Config.API_HASH,
-        bot_token = Config.BOT_TOKEN,
+        api_id = Config.21842705,
+        api_hash = Config.31fd2dbd1f1641a7a31a2829d2f80b30,
+        bot_token = Config.7280808721:AAGw_j3TCCYT6Gjsm2EMdc5Mw71jI0yq0aM,
         sleep_threshold = 10
     )
 
@@ -200,7 +200,7 @@ async def being_devil(_, message: Message):
             return message.reply("You aren't admin 😐 Don't mess around with me")
     else:
         LOGGER.warning("Not in group")
-        return message.reply("Bruh, do it in a group 😐\nI might be able to do it in channels soon, however I don't see any interest in it. PM **@EDM115** for requesting that feature")
+        return message.reply("Bruh, do it in a group 😐\nI might be able to do it in channels soon, however I don't see any interest in it. PM **@yourr_aditya01** for requesting that feature")
 
 # check if admin performed it
 # check admin rights
